@@ -1,0 +1,20 @@
+:root {
+    --gradient-blue-01: #29B6D1;
+    --gradient-blue-02: #00C7C7;
+    --blue-main: #15C3D6;
+    --light-blue: #96FEFF;
+    --pale-yellow: #FFD666;
+    --pink: #FF669D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 600 18px 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

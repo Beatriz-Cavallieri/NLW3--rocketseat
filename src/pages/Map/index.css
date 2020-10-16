@@ -1,0 +1,32 @@
+#page-map {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+.left-wrapper {
+    color: white;
+    background-color: var(--gradient-blue-01);
+
+    width: 25%;
+    height: 100%;
+
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#page-map h1 {
+    font-size: 42px;
+    line-height: 42px;
+}
+
+#page-map .map {
+    height: 100%;
+    width: 75%;
+    background-image: url('../../images/Mapa.png');
+}
